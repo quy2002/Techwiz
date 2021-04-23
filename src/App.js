@@ -1,13 +1,16 @@
 import './App.css';
-import React from 'react';
+import React, { Fragment } from 'react';
 import Layout from "./Pages/home/Layout";
 
-export default class App extends React.Component{
+class App extends React.Component{
   render() {
-    return (
-      <Layout/>
+    return(
+      <Fragment>
+        <Layout/>
+      </Fragment>
+        
     )
   }
 }
-
+export default App;
 
